@@ -97,10 +97,5 @@ public class MyDialogActivity extends AppCompatActivity {
                 myDialog.show();
             }
         });
-
-
-
-
-
     }
 }

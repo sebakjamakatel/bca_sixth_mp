@@ -15,11 +15,6 @@
         <activity
             android:name=".apisikneho.ApiDemoActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".hospitalDB.HospitalMainActivity"
@@ -64,7 +59,13 @@
             android:exported="true" />
         <activity
             android:name=".dialog.MyDialogActivity"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".package2.LoginViewActivity"
             android:exported="true" />
